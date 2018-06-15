@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font: 14px/1.4 sans-serif;
+}
+
+body {
+    padding: 24px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font: inherit;
+    overflow-y: scroll;
+}
+
+input:focus {
+    outline: none;
+}
+
+#kbd > * {
+    border: 0;
+    background: #eee;
+    border-radius: 3px;
+    display: inline-block;
+    height: 2.4rem;
+    min-width: 2.4rem;
+    line-height: 2.4rem;
+    margin: 0.3rem;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+[data-vkeyboard-key=SPACE] {
+    width: 200px;
+}
+[data-vkeyboard-key=RETURN] {
+    width: 80px;
+}
